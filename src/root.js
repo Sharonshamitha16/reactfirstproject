@@ -1,35 +1,40 @@
 import './App.css';
-// import { ChildComponent1 } from './components/ChildComponent1';
+// cls 
+
 // import { FuncBasedComp1 , FuncBasedComp2, FuncBasedComp3 } from './components/FunctionBasedComponent';
 // import FuncBasedCompDefault from './components/FunctionBasedComponent';
- import ChildComponent1 from './components/ChildComponent1';
- import { ChildComponent2 } from './components/ChildComponent2';
-import { ChildComponent3 } from './components/ChildComponent3';
 
+// task
 
+//  import ChildComponent1 from './components/ChildComponent1';
+//  import { ChildComponent2 } from './components/ChildComponent2';
+// import { ChildComponent3 } from './components/ChildComponent3';
 
+import Navbar from './Task1/components/Navbar';
+import Home from './Task1/components/Home';
+import About from './Task1/components/About';
+import Footer from './Task1/components/Footer';
 function Root() {
   return (
-    <div className=" bg-[#b33b3b] w-full h-screen flex justify-center items-center ">
-     {/* <h1 className=' App text-4xl underline font-bold '>Helo world</h1> */}
-     {/* <Sample/> */}
-     {/* <FuncBasedCompDefault/>
+    <div  >
+
+      {/* <FuncBasedCompDefault/>
        <FuncBasedComp1/>
-       <FuncBasedComp2/>
+       <FuncBasedComp2/> 
        <FuncBasedComp3/> */}
-      <ChildComponent1/>
+
+      {/* <ChildComponent1/>
       <ChildComponent2/>
-    <ChildComponent3/>
-      
-      {/* <ChildComponent2/>
-      <Childcomponent3/> */}
+      <ChildComponent3/> */}
+
+      <Navbar />
+      <Home />
+      <About />
+      <Footer/>
     </div>
-   
+
 
   );
 }
-// const Sample = ()=>{
-//   return <button>sample</button>
-// }
 
 export default Root;
