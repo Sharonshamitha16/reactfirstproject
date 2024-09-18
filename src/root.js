@@ -1,6 +1,7 @@
 import './App.css';
+import ParentComp from './props/ParentComp';
 // import ClassBasedComp from './Classcomp';
-import { FuncBasedComp } from './FuncBasedcomp';
+// import { FuncBasedComp } from './FuncBasedcomp';
 // cls 
 
 // import { FuncBasedComp1 , FuncBasedComp2, FuncBasedComp3 } from './components/FunctionBasedComponent';
@@ -14,15 +15,20 @@ import { FuncBasedComp } from './FuncBasedcomp';
 
 //task2
 
-import Navbar from './Task1/components/Navbar';
-import Home from './Task1/components/Home';
-import About from './Task1/components/About';
-import Footer from './Task1/components/Footer';
+// import Navbar from './Task1/components/Navbar';
+// import Home from './Task1/components/Home';
+// import About from './Task1/components/About';
+// import Footer from './Task1/components/Footer';
 
 // test 12-09-24
-// import Apptest  from './Test';
+// import Apptest from './Test';
 
+// 16-09-24
+// import VirtualDom from './VirtualDom';
+
+// 13-09-24
 // import ClassBasedComp from './Classcomp';
+
 
 function Root() {
   return (
@@ -37,15 +43,23 @@ function Root() {
       <ChildComponent2/>
       <ChildComponent3/> */}
 
-      <Navbar />
+      {/* <Navbar />
       <Home />
       <About />
-      <Footer/>
+      <Footer/> */}
 
-      {/* <Apptest/> */}
+      {/* <Apptest/>  */}
 
       {/* <ClassBasedComp/> */}
-{/* <FuncBasedComp/> */}
+      {/* <FuncBasedComp/> */}
+
+
+
+      {/* <VirtualDom/> */}
+
+
+
+      <ParentComp/>
     </div>
 
 

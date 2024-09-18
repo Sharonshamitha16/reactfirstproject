@@ -1,7 +1,7 @@
 import "./Navbar.css"
 import img from  "./Assets/human1.png"
 const Home =()=>{
-    const [imageSrc, setImageSrc] = useState("");
+    // const [imageSrc, setImageSrc] = useState("");
     return(
         <div className="row bg-black flex justify-between h-lvh ">
             <div className="col mx-150 ml-20 mt-20">
