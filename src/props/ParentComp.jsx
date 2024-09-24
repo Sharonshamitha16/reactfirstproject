@@ -23,13 +23,13 @@ const ParentComp = () => {
 
     }
     return (
-        <div>
+        <div className='w-full h-screen flex flex-col gap-2 justify-center'>
             <h1 className='text-center mb-4'>ParentComp</h1>
             <div className="flex justify-center mx-1">
-                <div className="flex gap-5">
+                <div className="flex gap-3">
                     <Button btnName={updateButton} handleFunc={handleclickUpdate} />
                     <Button btnName="Submit" handleFunc={handleclickSubmit} /></div>
-                <div className="flex gap-5"></div>
+               
                 {/* <ButtonComp props={{btnName:btnName,handleFunc: handleback}} /> */}
                 <Button btnName="Reset" handleFunc={handleReset} />
             </div>

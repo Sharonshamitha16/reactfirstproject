@@ -7,7 +7,7 @@ const ChildCom = ({ btnName, handleFunc }) => {
     return (
         // <form onSubmit={handleOnsubmit}>
         <div>
-                <button className='bg-blue-500 px-5 py-5 rounded text-white' onClick={handleFunc} >{btnName}</button>   
+                <button className='bg-blue-500 px-5 py-5 mx-2 rounded text-white' onClick={handleFunc} >{btnName}</button>   
         </div>
             // </form>
     )

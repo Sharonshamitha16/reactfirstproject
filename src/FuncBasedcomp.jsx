@@ -3,13 +3,13 @@ import { useState } from "react";
     console.log(useState());
     
     const [count , SetCount]=useState(0); // destructing the array
-    // usetstate has a array of  2 things one can be anything(num,String) second is function 
+    // usetstate has a array of  2 things one can be anything i.e value (num,String) second is function 
    const increment =()=>{
     SetCount(count+1)
     // Setcount((prevcount)=>prevcount-1)
    }
    const decrement =()=>{
-    SetCount(count-1)
+    SetCount(count-1) 
     // Setcount((prevcount)=>prevcount+1) //callback function
    }
     return (

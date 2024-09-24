@@ -15,10 +15,10 @@ import ParentComp from './props/ParentComp';
 
 //task2
 
-// import Navbar from './Task1/components/Navbar';
-// import Home from './Task1/components/Home';
-// import About from './Task1/components/About';
-// import Footer from './Task1/components/Footer';
+import Navbar from './Task1/components/Navbar';
+import Home from './Task1/components/Home';
+import About from './Task1/components/About';
+import Footer from './Task1/components/Footer';
 
 // test 12-09-24
 // import Apptest from './Test';
@@ -43,10 +43,10 @@ function Root() {
       <ChildComponent2/>
       <ChildComponent3/> */}
 
-      {/* <Navbar />
+      <Navbar />
       <Home />
       <About />
-      <Footer/> */}
+      <Footer/>
 
       {/* <Apptest/>  */}
 
@@ -59,7 +59,7 @@ function Root() {
 
 
 
-      <ParentComp/>
+      {/* <ParentComp/> */} 
     </div>
 
 
