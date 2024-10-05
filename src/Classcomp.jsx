@@ -2,6 +2,7 @@ import { Component } from "react";
 export default class ClassBasedComp extends Component {
     constructor() { 
         super();
+        
         this.state = {
             count: 0,
             username:""
